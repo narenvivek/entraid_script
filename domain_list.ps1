@@ -12,7 +12,6 @@ $allUsers = Get-AzureADUser
 
 # Loop through each domain to get the users
 foreach ($domain in $domains) {
-    # Write-Output a unicode character to separate the domains
     Write-Output "----------------------------------------------------------"
     Write-Output "Domain: $($domain.Name)"
 
